@@ -1,5 +1,34 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const element = document.querySelectorAll('nav ul li a')
 // const li= document.querySelectorAll('li');
 
@@ -12,51 +41,51 @@
 
 
 
-let elemntClique=false;
-const li= document.querySelectorAll('li')
+// let elemntClique=false;
+// const li= document.querySelectorAll('li')
 
-li[0].addEventListener('click',function(){
+// li[0].addEventListener('click',function(){
 	
-	if(li[1].classList.contains('active') || li[2].classList.contains('active')){
-		li[1].classList.remove('active')
-		li[2].classList.remove('active')
-		li[0].classList.add('active')
-		document.querySelector('span').classList.replace('bg-white', 'bg-primary')
-		document.querySelector('span').classList.add('text-white')
-	}else{
-		li[0].classList.add('active')
-	}
+// 	if(li[1].classList.contains('active') || li[2].classList.contains('active')){
+// 		li[1].classList.remove('active')
+// 		li[2].classList.remove('active')
+// 		li[0].classList.add('active')
+// 		document.querySelector('span').classList.replace('bg-white', 'bg-primary')
+// 		document.querySelector('span').classList.add('text-white')
+// 	}else{
+// 		li[0].classList.add('active')
+// 	}
 
-})
+// })
 
-li[1].addEventListener('click',function(){
+// li[1].addEventListener('click',function(){
 	
-	if(li[0].classList.contains('active') || li[2].classList.contains('active')){
-		li[0].classList.remove('active')
-		li[2].classList.remove('active')
-		li[1].classList.add('active')
-		document.querySelector('span').classList.replace('bg-white', 'bg-primary')
-		document.querySelector('span').classList.add('text-white')
-	}else{
-		li[1].classList.add('active')
-	}
-})
+// 	if(li[0].classList.contains('active') || li[2].classList.contains('active')){
+// 		li[0].classList.remove('active')
+// 		li[2].classList.remove('active')
+// 		li[1].classList.add('active')
+// 		document.querySelector('span').classList.replace('bg-white', 'bg-primary')
+// 		document.querySelector('span').classList.add('text-white')
+// 	}else{
+// 		li[1].classList.add('active')
+// 	}
+// })
 
-li[2].addEventListener('click',function(){
+// li[2].addEventListener('click',function(){
 	
-	if(li[1].classList.contains('active') || li[0].classList.contains('active')){
-		li[0].classList.remove('active')
-		li[1].classList.remove('active')
-		li[2].classList.add('active')
-		document.querySelector('span').classList.replace('bg-primary', 'bg-white')
+// 	if(li[1].classList.contains('active') || li[0].classList.contains('active')){
+// 		li[0].classList.remove('active')
+// 		li[1].classList.remove('active')
+// 		li[2].classList.add('active')
+// 		document.querySelector('span').classList.replace('bg-primary', 'bg-white')
 	
-		document.querySelector('span').classList.replace('text-white', 'text-dark')
-	}else{
-		li[2].classList.add('active')
-		document.querySelector('span').classList.replace('bg-primary', 'bg-white')
-		document.querySelector('span').classList.add('text-dark')
-	}
-})
+// 		document.querySelector('span').classList.replace('text-white', 'text-dark')
+// 	}else{
+// 		li[2].classList.add('active')
+// 		document.querySelector('span').classList.replace('bg-primary', 'bg-white')
+// 		document.querySelector('span').classList.add('text-dark')
+// 	}
+// })
 
 
 
